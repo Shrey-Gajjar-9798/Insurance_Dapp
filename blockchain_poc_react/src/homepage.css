@@ -1,0 +1,81 @@
+@import url('https://fonts.googleapis.com/css2?family=Lora&family=Poppins:wght@300;400;600&display=swap');
+
+*{
+    padding: 0;
+    margin: 0;
+    font-family: 'Poppins',sans-serif;
+}
+.homepage_body{
+    width: 100%;
+    height: 100vh;
+    /* background-color: red; */
+}
+.hpcontent{
+    width: inherit;
+    height: inherit;
+}
+.bgimage{
+    width: inherit;
+    height: inherit;
+    position: fixed;
+}
+.bgimage img{
+    opacity: 0.1;
+    position: fixed;
+    object-fit: fill;
+    width: inherit;
+    height: inherit;
+}
+
+.hplogo{
+    width: 160px;
+    height: auto;
+    display: flex;
+    margin: 0px 20px 20px 40px;
+}
+.hplogo img{
+    background-color: rgb(55, 55, 55);
+    padding: 10px 20px 10px 20px;
+    border-radius: 8px;
+    margin-top: 20px;
+}
+.hgtextarea{
+    display: flex;
+    flex-direction: column;
+    margin-top: 150px;
+    margin-left: 90px;
+    width: 500px;
+}
+.hgmaintext{
+    font-size: 50px;
+    font-weight: bold;
+    margin-bottom: 10px;
+}
+.hgsubtext{
+    font-weight: 300;
+    font-family: "Lora", sans-serif;
+}
+.hgbuttons{
+    /* background-color: red; */
+    display: flex;
+    width: 400px;
+    position: relative;
+    justify-content: space-between;
+    margin-top: 60px;
+}
+.hgbuttons button{
+    background-color: blueviolet;
+    background-image: none;
+    width: 180px;
+    padding: 10px 0px 10px 0px;
+    color: white;
+    border: 0;
+    border-radius: 10px;
+    font-size: 15px;
+}
+.hgbuttons button:hover {
+    background-color: rgb(74, 0, 74);
+    background-image: none;
+    font-size: 16px;
+    transition: 0.4s ease-in-out;
+}

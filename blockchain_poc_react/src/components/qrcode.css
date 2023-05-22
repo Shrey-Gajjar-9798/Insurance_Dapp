@@ -1,0 +1,35 @@
+.qrcodepage{
+    width: 100%;
+    height: 100vh;
+}
+.qrcontent{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.qrheading{
+    background-color: darkviolet;
+    color: white;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    padding: 15px;
+}
+.qrcodebtn{
+    background-color: #8a2be2;
+    width: 150px;
+    font-size: 15px;
+    height: 35px;
+    margin-top: 7px;
+    margin-left: 10px;
+    border: none;
+    border-radius: 20px;
+    color: white;
+    cursor: pointer;
+}
+.blockchaindata{
+    display: flex;
+    justify-content: center;
+    margin-top: 45px;
+}
